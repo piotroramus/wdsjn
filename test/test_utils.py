@@ -10,9 +10,10 @@ class TestDeogonkify(unittest.TestCase):
         expected = {
             u'ala': u'ala',
             u'żołądź': u'zoladz',
-            u'Zbigniew': u'Zbigniew',
             u'ęółśążźćń': u'eolsazzcn',
-            u'eolsazzcn': u'eolsazzcn'
+            u'eolsazzcn': u'eolsazzcn',
+            u'Zbigniew': u'Zbigniew',
+            u'': u''
         }
         for case in expected:
             self.assertEqual(utils.deogonkify(case), expected[case])
