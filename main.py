@@ -1,4 +1,4 @@
-from utils import load_preprocessed_documents
+from preprocessing import load_preprocessed_documents
 
 input_file = 'resources/pap.txt'
 
