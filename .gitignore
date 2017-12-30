@@ -96,4 +96,4 @@ ENV/
 .ropeproject
 
 /resources/
-/plp.py
+/src/plp.py
