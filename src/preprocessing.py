@@ -64,3 +64,8 @@ def preprocess_documents(filename, encoding='utf-8', output='resources/preproces
             for word in document:
                 f.write(u"{} ".format(word))
             f.write(u'\n')
+
+
+if __name__ == '__main__':
+    input_file = 'resources/pap.txt'
+    preprocess_documents(input_file)
